@@ -1,0 +1,18 @@
+
+DROP TABLE Persons;
+CREATE TABLE persons(
+	name VARCHAR(100) NOT NULL,
+	age DECIMAL NOT NULL,
+	height DECIMAL NOT NULL,
+	weight DECIMAL NOT NULL
+);
+
+INSERT INTO persons VALUES('Anderson',30,188,90);
+INSERT INTO persons VALUES('Adela',21,167,55);
+INSERT INTO persons VALUES('Bates',87,158,48);
+INSERT INTO persons VALUES('Becky',54,187,70);
+INSERT INTO persons VALUES('Bill',39,177,120);
+INSERT INTO persons VALUES('Chris',90,175,48);
+INSERT INTO persons VALUES('Darwin',12,160,55);
+INSERT INTO persons VALUES('Dawson',25,182,90);
+INSERT INTO persons VALUES('Donald',30,176,53);
