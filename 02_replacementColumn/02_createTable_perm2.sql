@@ -1,0 +1,14 @@
+
+DROP TABLE Perm2;
+
+CREATE TABLE Perm2(
+	cust_id CHAR(3) NOT NULL,
+	item_1 VARCHAR(10) NOT NULL,
+	item_2 VARCHAR(10) NOT NULL
+);
+
+INSERT INTO Perm2 VALUES(001,'時計','浄水器');
+INSERT INTO Perm2 VALUES(002,'携帯電話','携帯電話');
+INSERT INTO Perm2 VALUES(003,'浄水器','時計');
+INSERT INTO Perm2 VALUES(004,'携帯電話','携帯電話');
+INSERT INTO Perm2 VALUES(005,'インク','メガネ');
